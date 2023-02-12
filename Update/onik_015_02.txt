@@ -1212,7 +1212,7 @@ void main()
 		   NULL, "...Did you really forget?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200488", 256, TRUE);
 	OutputLine(NULL, "……おはぎの宿題。",
-		   NULL, " ...The homework with the mochi?", Line_WaitForInput);
+		   NULL, " ...The homework with the ohagi?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200489", 256, TRUE);
 	OutputLine(NULL, "どれがレナの作ったおはぎかを当てる宿題。",
 		   NULL, " The 'homework' where you were supposed to guess which one Rena made?", Line_WaitForInput);
@@ -1233,7 +1233,7 @@ void main()
 //　でも裁縫針が出てきたので残りのおはぎは全部投げてしまった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも裁縫針が出てきたので残りのおはぎは全部投げてしまった。",
-		   NULL, "But I had thrown away the rest of the mochi after I found that sewing needle.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "But I had thrown away the rest of the ohagi after I found that sewing needle.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

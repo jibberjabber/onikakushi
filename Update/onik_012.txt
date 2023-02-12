@@ -3319,7 +3319,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300096", 256, TRUE);
 	OutputLine(NULL, "「うちの婆っちゃが山ほどおはぎを作ってさ。",
-		   NULL, "\"My grandma made a ton of mochi, you see.", Line_WaitForInput);
+		   NULL, "\"My grandma made a ton of ohagi, you see.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300097", 256, TRUE);
 	OutputLine(NULL, "お裾分けに持ってけって言ってんだよ。",
 		   NULL, " I was told to share them.", Line_WaitForInput);
@@ -3497,7 +3497,7 @@ void main()
 		   NULL, "\"...Then here, Keiichi-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200146", 256, TRUE);
 	OutputLine(NULL, "…魅ぃちゃんのおばあちゃんが作ってくれたおはぎだよ。」",
-		   NULL, " ...These are the mochi Mii-chan's grandma made.\"", Line_Normal);
+		   NULL, " ...These are the ohagi Mii-chan's grandma made.\"", Line_Normal);
 	ClearMessage();
 
 //　レナが新聞紙で包んだそれを差し出す＠
@@ -3557,7 +3557,7 @@ void main()
 		   NULL, "\"This is Kei-chan's homework since he missed the club meeting today!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300106", 256, TRUE);
 	OutputLine(NULL, "　おはぎにアルファベットがついてるから明日回答すること！」",
-		   NULL, " There are letters on each mochi, so I'll ask you tomorrow!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " There are letters on each ohagi, so I'll ask you tomorrow!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3835,7 +3835,7 @@ void main()
 //　…俺の手からおはぎの包みが滑り落ちる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺の手からおはぎの包みが滑り落ちる。",
-		   NULL, "The package with the mochi I was holding slipped out of my hands.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "The package with the ohagi I was holding slipped out of my hands.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4066,7 +4066,7 @@ void main()
 //　俺はさっき、おはぎの包みを落とした格好のまま、指一本動かすこともできないでいる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺はさっき、おはぎの包みを落とした格好のまま、指一本動かすこともできないでいる。",
-		   NULL, "I hadn't moved a muscle since I had dropped the package of mochi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "I hadn't moved a muscle since I had dropped the package of ohagi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4676,7 +4676,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100345", 256, TRUE);
 	OutputLine(NULL, "「……あ、そうだ。おはぎ食べないと…。",
-		   NULL, "\"...Ah, that reminds me. I need to eat those mochi...", Line_WaitForInput);
+		   NULL, "\"...Ah, that reminds me. I need to eat those ohagi...", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s01/01/120100346", 256, TRUE);
 	OutputLine(NULL, "どれがレナの手作りか、当てないといけないんだよな。」",
 		   NULL, " I hope I'm able to tell which one Rena made.\"", Line_Normal);
@@ -4724,7 +4724,7 @@ void main()
 //　…お茶を飲みながら頬張る手作りおはぎ＠……お＠結構うまそうなシチュエーションだぞ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…お茶を飲みながら頬張る手作りおはぎ。",
-		   NULL, "...To fill my mouth with mochi while drinking tea.", Line_WaitForInput);
+		   NULL, "...To fill my mouth with ohagi while drinking tea.", Line_WaitForInput);
 	OutputLine(NULL, "……お。",
 		   NULL, " ...Oh.", Line_WaitForInput);
 	OutputLine(NULL, "結構うまそうなシチュエーションだぞ。",
@@ -4736,7 +4736,7 @@ void main()
 //　新聞紙の包装を開くと、中にはこじんまりとした、それでいてずっしりとしたこし餡のおはぎが５つ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　新聞紙の包装を開くと、中にはこじんまりとした、それでいてずっしりとしたこし餡のおはぎが５つ。",
-		   NULL, "Opening up the newspaper wrapping, there were five plump red bean paste mochi fit snugly inside.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Opening up the newspaper wrapping, there were five plump red bean paste ohagi fit snugly inside.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4796,7 +4796,7 @@ void main()
 //　よく見ると中にひとつだけ、とても丁寧につくったおはぎがあった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よく見ると中にひとつだけ、とても丁寧につくったおはぎがあった。",
-		   NULL, "Looking carefully, I could see one mochi that was made very neatly.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Looking carefully, I could see one ohagi that was made very neatly.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5101,7 +5101,7 @@ void main()
 //　それが何かを頭が理解する前に、俺は食べかけのおはぎごと、それを力いっぱい投げ付けた！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが何かを頭が理解する前に、俺は食べかけのおはぎごと、それを力いっぱい投げ付けた！！！",
-		   NULL, "Before I could fully comprehend what it was, I threw away the rest of the mochi I was eating as fast as I could!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Before I could fully comprehend what it was, I threw away the rest of the ohagi I was eating as fast as I could!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5318,7 +5318,7 @@ void main()
 	OutputLine(NULL, "　………そして、ようやくこっち側の俺も理解する。",
 		   NULL, "...Then, it finally registered...", Line_WaitForInput);
 	OutputLine(NULL, "おはぎに何が混じっていたのかを。",
-		   NULL, " ...Exactly what was mixed in with the mochi.", Line_Normal);
+		   NULL, " ...Exactly what was mixed in with the ohagi.", Line_Normal);
 	ClearMessage();
 
 //　その単語を脳裏に浮かべるより手が動く方が早かった＠
@@ -5357,7 +5357,7 @@ void main()
 //　俺は残ったおはぎを次々と壁へ叩き付けた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺は残ったおはぎを次々と壁へ叩き付けた。",
-		   NULL, "I tossed the rest of the mochi against the wall.", Line_Normal);
+		   NULL, "I tossed the rest of the ohagi against the wall.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

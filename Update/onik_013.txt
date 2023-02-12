@@ -853,7 +853,7 @@ void main()
 	OutputLine(NULL, "みんな忘れる。",
 		   NULL, " Forget about all of it.", Line_WaitForInput);
 	OutputLine(NULL, "おはぎのことも全部忘れる。",
-		   NULL, " Forget about the mochi, too.", Line_WaitForInput);
+		   NULL, " Forget about the ohagi, too.", Line_WaitForInput);
 	OutputLine(NULL, "忘れる忘れる忘れる。",
 		   NULL, " Forgetforgetforget.", Line_Normal);
 	ClearMessage();
@@ -1179,7 +1179,7 @@ void main()
 //昨日のおはぎ、ちゃんと食べてくれた…？＠
 	ModPlayVoiceLS(3, 2, "ps3/s01/02/120200175", 256, TRUE);
 	OutputLine(NULL, "昨日のおはぎ、ちゃんと食べてくれた…？」",
-		   NULL, " Those mochi yesterday... did you eat them all...?\"", Line_Continue);
+		   NULL, " Those ohagi yesterday... did you eat them all...?\"", Line_Continue);
 	Wait( 2500 );
 	PlaySE( 4, "wa_009", 56, 64 );
 	Negative( 100 , TRUE )
@@ -1212,7 +1212,7 @@ void main()
 //　昨日のおはぎ、ちゃんと食べてくれた…＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昨日のおはぎ、ちゃんと食べてくれた…？",
-		   NULL, "\"Those mochi yesterday... did you eat them all...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Those ohagi yesterday... did you eat them all...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2623,7 +2623,7 @@ void main()
 		   NULL, "\"What's with that unenergetic greeting?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s01/03/120300124", 256, TRUE);
 	OutputLine(NULL, "　差し入れのおはぎ、ちゃんと食べてくれなかったのー？」",
-		   NULL, " Did you eat the mochi I brought you?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Did you eat the ohagi I brought you?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2814,7 +2814,7 @@ void main()
 //　昨日のおはぎはそれへの警告だと考えるのが妥当だろう￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昨日のおはぎはそれへの警告だと考えるのが妥当だろう。",
-		   NULL, "The warning yesterday with the mochi was a good indicator of that.", Line_Normal);
+		   NULL, "The warning yesterday with the ohagi was a good indicator of that.", Line_Normal);
 	ClearMessage();
 
 //　……いや、…警告という言い方自体、相も変わらず女々しい言い方だ＠
@@ -2983,7 +2983,7 @@ void main()
 //　裁縫針がどう間違ったらおはぎに混ざるんだ？！　お人好しも大概にしろ！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　裁縫針がどう間違ったらおはぎに混ざるんだ？！　お人好しも大概にしろ！！",
-		   NULL, "How could you screw up and drop a sewing needle into a piece of mochi!? The benefit of the doubt can only go so far!!", Line_Normal);
+		   NULL, "How could you screw up and drop a sewing needle into the ohagi!? The benefit of the doubt can only go so far!!", Line_Normal);
 	ClearMessage();
 
 //　確かにレナも魅音も…不審な態度や言動があるけど…ひょっとしたら何かの誤解で…＠
